@@ -182,8 +182,10 @@ function openIframe(link,titulo){
 const pages={
   inicio:()=>content.innerHTML=`<h2 style="text-align:center;color:#2a3f54;">Bem-vindo à Plataforma GEST</h2>`,
   planejamento:()=>showCards([
-    {titulo:"Planejador Semanal",desc:"Organize suas aulas com base na BNCC.",icone:"ri-calendar-check-line",link:"https://profkleidivaldo.github.io/planejadorsemanal/"}
-  ]),
+  {titulo:"Planejador Semanal",desc:"Organize suas aulas com base na BNCC.",icone:"ri-calendar-check-line",link:"https://profkleidivaldo.github.io/planejadorsemanal/"},
+  {titulo:"Planejador Form",desc:"Crie planejamentos completos via formulário.",icone:"ri-file-edit-line",link:"https://sites.google.com/view/planejaontestegratis/planejamentos"}
+]),
+
   autoria:()=>showCards([
     {titulo:"Construtor de Aulas",desc:"Monte páginas com textos, vídeos e atividades.",icone:"ri-book-open-line",link:"https://profkleidivaldo.github.io/construtor/"},
     {titulo:"Criador de Questionários",desc:"Crie quizzes interativos com correção automática.",icone:"ri-question-answer-line",link:"https://profkleidivaldo.github.io/geradorquestionarios/"},
